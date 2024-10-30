@@ -25,7 +25,22 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("No session found, add session before starting bot")
 module.exports = {
     VERSION: 'v4.0.0',
-    ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
+    ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}  *මම ඉන්නවා අනේ 🤫 සද්ද කරන්නෙපා*
+*නිදා ගන්න කියලා හදන්නේ.. කොහෙද බෑ නේ ඔයත් එක්ක හරි කමක් නෑ මොකද වෙන්න ඔනෙ මගෙන් ලමයො.. ඇයි කතා කරේ 😉🤭😁*
+
+*Whatsapp BOT GROUP*☺️🩷✌️
+
+*💫You tube video download ✅* 
+*💫Songs Download ✅* 
+*💫Tiktok video download  ✅* 
+*💫Facebook video download ✅* 
+*💫Instagram video download ✅* 
+*💫Stickers ✅*
+*💫Apk ✅*
+
+*,And More commands...💃🏻*
+
+https://chat.whatsapp.com/IcYb02CvE0o2xFpezINYsw",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
